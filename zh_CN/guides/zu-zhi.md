@@ -31,7 +31,7 @@
 
 您可以灵活调整每个成员的角色，根据他们的职责和权限需求进行精细化管理，确保团队高效协作和资源的最佳利用。
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 立即体验
 
