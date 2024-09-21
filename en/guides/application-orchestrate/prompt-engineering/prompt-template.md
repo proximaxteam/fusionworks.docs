@@ -1,6 +1,10 @@
 # Prompt Template
 
+<<<<<<< HEAD
 In order to meet the more customized requirements of developers for LLM, Dify has fully opened the built-in complete prompts in the **Expert Mode** and provided initial templates in the composition interface. Below are four initial templates for reference:
+=======
+In order to meet the more customized requirements of developers for LLM, FusionWorks has fully opened the built-in complete prompts in the **Expert Mode** and provided initial templates in the composition interface. Below are four initial templates for reference:
+>>>>>>> 2a4e55221a9a9aa67e510ca6b2caba7d1dcb543c
 
 ### 1. Using Chat models to build Conversational apps
 
@@ -138,7 +142,11 @@ And answer according to the language of the user's question.
 * `Query`
 
 {% hint style="warning" %}
+<<<<<<< HEAD
 Dify has collaborated with some model providers for joint deep optimization of system prompts, and the initial templates for some models may differ from the examples provided above.
+=======
+FusionWorks has collaborated with some model providers for joint deep optimization of system prompts, and the initial templates for some models may differ from the examples provided above.
+>>>>>>> 2a4e55221a9a9aa67e510ca6b2caba7d1dcb543c
 {% endhint %}
 
 ### **Parameter Definitions**&#x20;

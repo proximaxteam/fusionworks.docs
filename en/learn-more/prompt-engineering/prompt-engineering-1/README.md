@@ -1,6 +1,10 @@
 # Expert Mode for Prompt Engineering (Discontinued)
 
+<<<<<<< HEAD
 When creating an app on Dify, the default orchestration mode is **Simple Mode**, which is ideal for non-technical users who want to quickly create applications like a company knowledge base chatbot or an article summarizer. Using **Simple Mode**, you can orchestrate pre-prompt phrases, add variables, and context with simple steps to publish a complete application (refer to 👉[conversation-application.md](../../../../guides/application\_orchestrate/conversation-application.md "mention")[Broken link](broken-reference "mention")).
+=======
+When creating an app on FusionWorks, the default orchestration mode is **Simple Mode**, which is ideal for non-technical users who want to quickly create applications like a company knowledge base chatbot or an article summarizer. Using **Simple Mode**, you can orchestrate pre-prompt phrases, add variables, and context with simple steps to publish a complete application (refer to 👉[conversation-application.md](../../../../guides/application\_orchestrate/conversation-application.md "mention")[Broken link](broken-reference "mention")).
+>>>>>>> 2a4e55221a9a9aa67e510ca6b2caba7d1dcb543c
 
 However, if you are a technical user proficient in using **OpenAI's** **Playground** and want to create a learning tutor application that requires embedding different contexts and variables into the prompts for various teaching modules, you can choose **Expert Mode**. In this mode, you can freely write complete prompts, including modifying built-in prompts, adjusting the position of context and chat history within the prompts, and setting necessary parameters. If you are familiar with both Chat and Complete models, **Expert Mode** allows you to quickly switch between these models to meet your needs, and both are suitable for conversational and text generation applications.
 
@@ -31,7 +35,11 @@ Before you start experimenting with the new mode, you need to know the essential
       The query content is only available in text completion models for conversational applications. The content input by the user in the conversation will replace this variable, triggering a new round of dialogue.
   *   <img src="../../../../.gitbook/assets/5.png" alt="" data-size="line">
 
+<<<<<<< HEAD
       Conversation history is only available in text completion models for conversational applications. During multiple conversations in a conversational application, Dify assembles and concatenates the historical conversation records according to built-in rules and replaces the `conversation history` variable. The Human and Assistant prefixes can be modified by clicking the `...` after `conversation history`.
+=======
+      Conversation history is only available in text completion models for conversational applications. During multiple conversations in a conversational application, FusionWorks assembles and concatenates the historical conversation records according to built-in rules and replaces the `conversation history` variable. The Human and Assistant prefixes can be modified by clicking the `...` after `conversation history`.
+>>>>>>> 2a4e55221a9a9aa67e510ca6b2caba7d1dcb543c
 * **Initial Template**
 
   In **Expert Mode**, before formal orchestration, the prompt box provides an initial template that you can directly modify to make more customized requests to the LLM. Note: There are differences based on the type of application and mode.

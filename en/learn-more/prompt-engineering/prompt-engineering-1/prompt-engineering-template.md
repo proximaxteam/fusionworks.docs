@@ -1,6 +1,10 @@
 # Initial Prompt Template References
 
+<<<<<<< HEAD
 To meet the more customized requirements of LLMs for developers, Dify fully opens up the complete prompts in **Expert Mode** and provides initial templates in the orchestration interface. Here are references for four initial templates:
+=======
+To meet the more customized requirements of LLMs for developers, FusionWorks fully opens up the complete prompts in **Expert Mode** and provides initial templates in the orchestration interface. Here are references for four initial templates:
+>>>>>>> 2a4e55221a9a9aa67e510ca6b2caba7d1dcb543c
 
 ### 1. Template for Building Conversational Applications Using Chat Models
 
@@ -137,7 +141,11 @@ And answer according to the language of the user's question.
 * Query Variable (`Query`)
 
 {% hint style="warning" %}
+<<<<<<< HEAD
 Dify and some model vendors have jointly optimized the system prompts deeply. Therefore, the initial templates under some models may differ from the examples above.
+=======
+FusionWorks and some model vendors have jointly optimized the system prompts deeply. Therefore, the initial templates under some models may differ from the examples above.
+>>>>>>> 2a4e55221a9a9aa67e510ca6b2caba7d1dcb543c
 {% endhint %}
 
 ### Parameter Descriptions
