@@ -1,6 +1,6 @@
 # Table of contents
 
-## 入门 <a href="#getting-started" id="getting-started"></a>
+## 介绍 <a href="#getting-started" id="getting-started"></a>
 
 * [欢迎使用 Dify](README.md)
   * [特性与技术规格](getting-started/readme/features-and-specifications.md)
