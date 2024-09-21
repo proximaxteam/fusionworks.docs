@@ -8,7 +8,7 @@
 
 ### 2 场景
 
-常见情景：构建基于外部数据/知识的 AI 问答系统（RAG）。了解更多关于 RAG 的[基本概念](../../../learn-more/extended-reading/retrieval-augment/)。
+常见情景：构建基于外部数据/知识的 AI 问答系统（RAG）。了解更多关于 RAG 的[基本概念](broken-reference)。
 
 下图为一个最基础的知识库问答应用示例，该流程的执行逻辑为：知识库检索作为 LLM 节点的前置步骤，在用户问题传递至 LLM 节点之前，先在知识检索节点内将匹配用户问题最相关的文本内容并召回，随后在 LLM 节点内将用户问题与检索到的上下文一同作为输入，让 LLM 根据检索内容来回复问题。
 
@@ -24,7 +24,7 @@
 
 1. 选择查询变量，用于作为输入来检索知识库中的相关文本分段，在常见的对话类应用中一般将开始节点的 `sys.query` 作为查询变量；
 2. 选择需要查询的知识库，可选知识库需要在 Dify 知识库内预先[创建](../../knowledge-base/create\_knowledge\_and\_upload\_documents.md#id-1-chuang-jian-zhi-shi-ku)；
-3. 配置[召回模式](../../../learn-more/extended-reading/retrieval-augment/retrieval.md)和[知识库设置](../../knowledge-base/knowledge\_and\_documents\_maintenance.md#id-8-zhi-shi-ku-she-zhi)；
+3. 配置[召回模式](broken-reference)和[知识库设置](../../knowledge-base/knowledge\_and\_documents\_maintenance.md#id-8-zhi-shi-ku-she-zhi)；
 4. 连接并配置下游节点，一般为 LLM 节点；
 
 **输出变量**
