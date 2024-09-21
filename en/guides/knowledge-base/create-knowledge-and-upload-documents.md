@@ -1,15 +1,15 @@
-# Creating a Knowledge Base & Uploading Documents
+# Create Knowledge Base & Upload Documents
 
 ### 1 Creating a Knowledge Base
 
 Click on Knowledge in the main navigation bar of Dify. On this page, you can see your existing knowledge bases. Click **Create Knowledge** to enter the setup wizard:
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/create-knowledge.png" alt=""><figcaption><p>Creating Knowledge</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/create-knowledge.png" alt=""><figcaption><p>Creating Knowledge</p></figcaption></figure>
 
 * If you have already prepared the files, you can start by uploading them;
 * If you have not prepared any documents yet, you can first create an empty dataset;
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/create-knowledge-2.png" alt=""><figcaption><p>Creating Knowledge Base</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/create-knowledge-2.png" alt=""><figcaption><p>Creating Knowledge Base</p></figcaption></figure>
 
 {% hint style="info" %}
 If you choose to use an external data source when creating a dataset, the type of knowledge cannot be changed. This is to prevent difficulties in managing datasets caused by having multiple data sources in a single knowledge base. If you need to use multiple data sources, it is recommended to create multiple knowledge.
@@ -44,7 +44,7 @@ Segmentation and cleaning support two configuration strategies:
 * Automatic mode (to be phased out)
 * Custom mode
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/custom-chunk-settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/custom-chunk-settings.png" alt=""><figcaption></figcaption></figure>
 
 In custom mode, users can configure chunk settings and cleaning settings according to different document formats and scenario requirements.
 
@@ -70,13 +70,12 @@ In production-level applications of RAG, to achieve better data recall, multi-so
 ETL solution choices in different versions of Dify:
 
 * The SaaS version defaults to using Unstructured ETL and cannot be changed;
-* The community version defaults to using Dify ETL but can enable Unstructured ETL through [environment variables](../../getting-started/install-self-hosted/environments.md#zhi-shi-ku-pei-zhi);
-<!-- TODO: change link -->
+* The community version defaults to using Dify ETL but can enable Unstructured ETL through [environment variables](broken-reference);
 
 Differences in supported file formats for parsing:
 
-| DIFY ETL | Unstructured ETL |
-| ---------------------------------------------- | ------------------------------------------------------------------------ |
+| DIFY ETL                                                | Unstructured ETL                                                                        |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | txt, markdown, md, pdf, html, htm, xlsx, xls, docx, csv | txt, markdown, md, pdf, html, htm, xlsx, xls, docx, csv, eml, msg, pptx, ppt, xml, epub |
 
 {% hint style="info" %}
@@ -99,9 +98,9 @@ When uploading documents to the knowledge base, the system segments the text so 
 
 > Question text is natural language with complete grammatical structure, not just some keywords in a document retrieval task. Therefore, the Q to Q (question matching question) mode makes semantics and matching clearer and meets the needs of high-frequency and high-similarity question scenarios.
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/Q&A-pair.png" alt=""><figcaption><p>Texts summarized into multiple Q&A pairs in Q&A segment mode</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/Q&#x26;A-pair.png" alt=""><figcaption><p>Texts summarized into multiple Q&#x26;A pairs in Q&#x26;A segment mode</p></figcaption></figure>
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/q2p-and-q2q.png" alt=""><figcaption><p>Difference between Q to P and Q to Q indexing modes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/q2p-and-q2q.png" alt=""><figcaption><p>Difference between Q to P and Q to Q indexing modes</p></figcaption></figure>
 
 ***
 
@@ -117,10 +116,9 @@ The specific configurations for the three retrieval methods are as follows:
 
 #### **Vector Search**
 
-Definition: By generating query embeddings to search the most similar text chunk to the query's vector representation. 
-<!-- TODO: needs refinement -->
+Definition: By generating query embeddings to search the most similar text chunk to the query's vector representation.
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/vector-search.png" alt="" width="563"><figcaption><p>Vector Search Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/vector-search.png" alt="" width="563"><figcaption><p>Vector Search Settings</p></figcaption></figure>
 
 TopK: Used to filter the text chunk most similar to the user’s query. The system will dynamically adjust the number of chunks based on the context window size of the selected model. The default value is 3.
 
@@ -128,13 +126,13 @@ Score threshold: Used to set the similarity threshold for filtering text fragmen
 
 Rerank model: After configuring the API key for the Rerank model in the “Model Provider” page, you can
 
- enable the “Rerank model” in the retrieval settings. The system will semantically rerank the recalled document results after vector retrieval to optimize the ranking results. After setting the Rerank model, TopK and Score threshold settings only take effect in the Rerank step.
+enable the “Rerank model” in the retrieval settings. The system will semantically rerank the recalled document results after vector retrieval to optimize the ranking results. After setting the Rerank model, TopK and Score threshold settings only take effect in the Rerank step.
 
 #### **Full-Text Search**
 
 Definition: Indexing all terms in the document, allowing users to query any terms and return text fragments containing those terms.
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/full-text-search.png" alt="" width="563"><figcaption><p>Full-Text Search Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/full-text-search.png" alt="" width="563"><figcaption><p>Full-Text Search Settings</p></figcaption></figure>
 
 TopK: Used to filter the text fragments most similar to the user’s query. The system will dynamically adjust the number of fragments based on the context window size of the selected model. The default value is 3.
 
@@ -144,7 +142,7 @@ Rerank model: After configuring the API key for the Rerank model in the “Model
 
 Performs full-text and vector search simultaneously, with an additional reranking step to select the best match for the user’s query from the two types of query results, requiring Rerank model API configuration.
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/hybrid-search.png" alt="" width="563"><figcaption><p>Hybrid Search Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/hybrid-search.png" alt="" width="563"><figcaption><p>Hybrid Search Settings</p></figcaption></figure>
 
 TopK: Used to filter the text fragments most similar to the user’s query. The system will dynamically adjust the number of fragments based on the context window size of the selected model. The default value is 3.
 

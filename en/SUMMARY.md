@@ -1,17 +1,8 @@
 # Table of contents
 
-## Getting Started
+## Introduce
 
-* [Welcome to Dify](README.md)
-  * [Features and Specifications](getting-started/readme/features-and-specifications.md)
-  * [List of Model Providers](getting-started/readme/model-providers.md)
-* [Cloud Services](getting-started/cloud.md)
-* [Community Edition](getting-started/install-self-hosted/README.md)
-  * [Deploy with Docker Compose](getting-started/install-self-hosted/docker-compose.md)
-  * [Start with Local Source Code](getting-started/install-self-hosted/local-source-code.md)
-  * [Start Frontend Docker Container Separately](getting-started/install-self-hosted/start-the-frontend-docker-container.md)
-  * [Environment Variables Explanation](getting-started/install-self-hosted/environments.md)
-  * [FAQs](getting-started/install-self-hosted/faqs.md)
+* [Welcome to FusionWorks](README.md)
 
 ## Guides
 
@@ -100,37 +91,3 @@
   * [Invite and Manage Members](guides/workspace/invite-and-manage-members.md)
 * [Management](guides/management/README.md)
   * [Manage App](guides/management/manage-app.md)
-
-## Community
-
-* [Seek Support](community/support.md)
-* [Become a Contributor](community/contribution.md)
-
-## Development
-
-* [Backend](development/backend/README.md)
-  * [DifySandbox](development/backend/sandbox/README.md)
-    * [Contribution Guide](development/backend/sandbox/contribution.md)
-
-## Learn More
-
-* [Use Cases](learn-more/use-cases/README.md)
-  * [Build a Notion AI Assistant](learn-more/use-cases/build-an-notion-ai-assistant.md)
-  * [Create a MidJourney Prompt Bot with Dify](learn-more/use-cases/create-a-midjourney-prompt-bot-with-dify.md)
-  * [Create an AI Chatbot with Business Data in Minutes](learn-more/use-cases/create-an-ai-chatbot-with-business-data-in-minutes.md)
-* [Extended Reading](learn-more/extended-reading/README.md)
-  * [What is LLMOps?](learn-more/extended-reading/what-is-llmops.md)
-  * [Retrieval-Augmented Generation (RAG)](learn-more/extended-reading/retrieval-augment/README.md)
-    * [Hybrid Search](learn-more/extended-reading/retrieval-augment/hybrid-search.md)
-    * [Re-ranking](learn-more/extended-reading/retrieval-augment/rerank.md)
-    * [Retrieval Modes](learn-more/extended-reading/retrieval-augment/retrieval.md)
-* [FAQ](learn-more/faq/README.md)
-  * [Self-Host Related](learn-more/faq/self-host-faq.md)
-  * [LLM Configuration and Usage](learn-more/faq/use-llms-faq.md)
-
-## Policies
-
-* [Open Source License](policies/open-source.md)
-* [User Agreement](policies/agreement/README.md)
-  * [Terms of Service](https://dify.ai/terms)
-  * [Privacy Policy](https://dify.ai/privacy)

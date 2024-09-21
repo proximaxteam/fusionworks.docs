@@ -4,16 +4,16 @@
 
 The Dify Knowledge Base provides a text recall testing feature to debug the recall effects under different retrieval methods and parameter configurations. You can enter common user questions in the **Source Text** input box, click **Test**, and view the recall results in the **Recalled Paragraph** section on the right. The **Recent Queries** section allows you to view the history of query records; if the knowledge base is linked to an application, queries triggered from within the application can also be viewed here.
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/recall-test.png" alt=""><figcaption><p>Recall Testing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/recall-test.png" alt=""><figcaption><p>Recall Testing</p></figcaption></figure>
 
 Clicking the icon in the upper right corner of the source text input box allows you to change the retrieval method and specific parameters of the current knowledge base. **Changes will only take effect during the recall testing process.** After completing the recall test and confirming changes to the retrieval parameters of the knowledge base, you need to make changes in [Knowledge Base Settings > Retrieval Settings](retrieval\_test\_and\_citation.md#zhi-shi-ku-she-zhi).
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/recall-test-setting.png" alt=""><figcaption><p>Recall Testing - Retrieval Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/recall-test-setting.png" alt=""><figcaption><p>Recall Testing - Retrieval Settings</p></figcaption></figure>
 
 **Suggested Steps for Recall Testing:**
 
 1. Design and organize test cases/test question sets covering common user questions.
-2. Choose an appropriate retrieval strategy: vector search/full-text search/hybrid search. For the pros and cons of different retrieval methods, please refer to the extended reading [Retrieval-Augmented Generation (RAG)](../../learn-more/extended-reading/retrieval-augment/).
+2. Choose an appropriate retrieval strategy: vector search/full-text search/hybrid search. For the pros and cons of different retrieval methods, please refer to the extended reading [Retrieval-Augmented Generation (RAG)](broken-reference).
 3. Debug the number of recall segments (TopK) and the recall score threshold (Score). Choose appropriate parameter combinations based on the application scenario, including the quality of the documents themselves.
 
 **How to Configure TopK Value and Recall Threshold (Score)**
@@ -27,8 +27,8 @@ Clicking the icon in the upper right corner of the source text input box allows 
 
 When testing the knowledge base effect within the application, you can go to **Workspace -- Add Function -- Citation Attribution** to enable the citation attribution feature.
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/enable-citation-attribution.png" alt=""><figcaption><p>Enable Citation and Attribution Feature</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/enable-citation-attribution.png" alt=""><figcaption><p>Enable Citation and Attribution Feature</p></figcaption></figure>
 
 After enabling the feature, when the large language model responds to a question by citing content from the knowledge base, you can view specific citation paragraph information below the response content, including **original segment text, segment number, matching degree**, etc. Clicking **Jump to Knowledge Base** above the cited segment allows quick access to the segment list in the knowledge base, facilitating developers in debugging and editing.
 
-<figure><img src="/en/.gitbook/assets/guides/knowledge-base/view-citation.png" alt=""><figcaption><p>View Citation Information in Response Content</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/guides/knowledge-base/view-citation.png" alt=""><figcaption><p>View Citation Information in Response Content</p></figcaption></figure>

@@ -1,35 +1,23 @@
-# Welcome to Dify
+---
+description: One-Stop Enterprise AI Model Application Service Platform
+---
 
-Dify is an open-source large language model (LLM) application development platform. It combines the concepts of Backend-as-a-Service and LLMOps to enable developers to quickly build production-grade generative AI applications. Even non-technical personnel can participate in the definition and data operations of AI applications.
+# Welcome to FusionWorks
 
-By integrating the key technology stacks required for building LLM applications, including support for hundreds of models, an intuitive Prompt orchestration interface, high-quality RAG engines, and a flexible Agent framework, while providing a set of easy-to-use interfaces and APIs, Dify saves developers a lot of time reinventing the wheel, allowing them to focus on innovation and business needs.
+Welcome to **FusionWorks**, your one-stop platform for enterprise AI model application services! We are dedicated to providing full-cycle support for enterprises, from AI model training to multi-industry application deployment. Whether you are a startup or a large corporation, our solutions help you overcome the complexities of AI model development, training, optimization, and deployment, bringing smart innovations to your business.
 
-### Why Use Dify?
+On the FusionWorks platform, you can easily deploy the latest AI models, explore a wide range of models in our public marketplace, and create your own AI Agent using our low-code tools to meet various business intelligence needs.
 
-You can think of libraries like LangChain as toolboxes with hammers, nails, etc. In comparison, Dify provides a more production-ready, complete solution - think of Dify as a scaffolding system with refined engineering design and software testing.
+### Advantages
 
-Importantly, Dify is **open source**, co-created by a professional full-time team and community. You can self-deploy capabilities similar to Assistants API and GPTs based on any model, maintaining full control over your data with flexible security, all on an easy-to-use interface.
+1. **End-to-End Services**: FusionWorks offers comprehensive end-to-end services, from AI model training and optimization to deployment, reducing technical barriers and boosting productivity.
+2. **Multi-Industry Support**: Whether in finance, retail, healthcare, manufacturing, or other industries, we provide highly customized solutions, enabling you to apply cutting-edge AI technologies to your specific business needs.
+3. **Easy Deployment and Operation**: Our user-friendly interface allows you to quickly deploy AI models, adjust parameters flexibly, and cater to different business scenarios.
+4. **Security and Compliance**: We adhere to industry standards to ensure data security and privacy protection, providing robust and reliable enterprise-level services.
 
-> Our community users summarize their evaluation of Dify's products as simple, restrained, and rapid iteration.
->
-> \- Lu Yu, Dify.AI CEO
+### Features
 
-We hope the above information and this guide can help you understand this product. We believe Dify is made for you.
-
-### What Can Dify Do?
-
-{% hint style="info" %}
-The name Dify comes from Define + Modify, referring to defining and continuously improving your AI applications. It's made for you.
-{% endhint %}
-
-* **Startups** - Quickly turn your AI ideas into reality, accelerating both success and failure. In the real world, dozens of teams have already built MVPs to get funding or win customer orders through Dify.
-* **Integrate LLMs into existing businesses** - Enhance capabilities of current apps by introducing LLMs. Access Dify’s RESTful APIs to decouple Prompts from business logic. Use Dify’s management interface to track data, costs and usage while continuously improving performance.
-* **Enterprise LLM infrastructure** - Some banks and internet companies are deploying Dify as an internal LLM gateway, accelerating the adoption of GenAI technologies while enabling centralized governance.
-* **Explore LLM capabilities** - Even as a tech enthusiast, you can easily practice Prompt engineering and Agent technologies through Dify. Over 60,000 developers have built their first app on Dify even before GPTs came out.
-
-### Next Steps
-
-* Read [**Quick Start**](https://docs.dify.ai/application/creating-an-application) for an overview of Dify’s application building workflow.
-* Learn how to [**self-deploy Dify** ](https://docs.dify.ai/getting-started/install-self-hosted)to your servers and [**integrate open source models**](https://docs.dify.ai/advanced/model-configuration)**.**
-* Understand Dify’s [**specifications and roadmap**](getting-started/readme/features-and-specifications.md)**.**
-* [**Star us on GitHub**](https://github.com/langgenius/dify) and read our **Contributor Guidelines.**
+1. **Model Training and Optimization**: We provide powerful computing resources and efficient training tools to help enterprises train and optimize their AI models for optimal performance.
+2. **Public Marketplace**: In our open marketplace, users can explore and test pre-trained models across various fields, finding the perfect fit for their business needs.
+3. **Low-Code AI Agent Creation**: With FusionStudio, users can quickly create custom AI Agents in a low-code environment, simplifying the development process and accelerating application deployment.
+4. **Multi-Cloud Deployment Support**: Whether on public, private, or dedicated clouds, we support various deployment environments, enabling enterprises to implement cross-platform AI solutions seamlessly.
